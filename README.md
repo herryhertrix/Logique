@@ -8,7 +8,6 @@ This is a Node.js and TypeScript-based API for managing books, using MongoDB as 
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -205,30 +204,6 @@ To check formatting:
 
 ```bash
 npm run format:check
-```
-
-## Project Structure
-
-```
-.
-├── src
-│   ├── controllers
-│   │   └── bookController.ts
-│   ├── models
-│   │   └── book.ts
-│   ├── services
-│   │   └── bookService.ts
-│   ├── routes
-│   │   └── bookRoutes.ts
-│   └── main.ts
-├── __tests__
-│   ├── bookController.test.ts
-│   └── bookService.test.ts
-├── .env
-├── package.json
-├── tsconfig.json
-├── tsconfig.build.json
-└── jest.config.js
 ```
 
 ## Contributing

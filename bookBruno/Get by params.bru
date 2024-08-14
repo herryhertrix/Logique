@@ -1,0 +1,27 @@
+meta {
+  name: Get by params
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{url}}/books?search=keyword&page=1&limit=10
+  body: json
+  auth: none
+}
+
+query {
+  search: keyword
+  page: 1
+  limit: 10
+}
+
+body:json {
+  {
+    "title": "enoch",
+    "author": "me",
+    "publishedYear": 1990,
+    "genres": ["HISTORY"],
+    "stock": 5
+  }
+}

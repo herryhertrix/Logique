@@ -1,0 +1,21 @@
+meta {
+  name: Update
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/books/66bc6a6003327422a211dd55
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "enoch",
+    "author": "me",
+    "publishedYear": 1990,
+    "genres": ["HISTORY"],
+    "stock": 10
+  }
+}
